@@ -1,0 +1,13 @@
+-------------------basics of git-----------------------
+the basics are first in git it doesen't commit directly it has to go to staging area and then we have to commit our code to github
+so to get our files to staging area we use command (git add .") to add all files
+to the staging area and now the files are ready to commit now to commit git 
+we use command (git commit -m "ur message here") and now all files will be 
+commited to git repository and now to check what changes you use command 
+(git log) and it will who made the commits and when and to check status
+we use command (git status) it shows the status of our files in the repositor
+y  and if you want to chnage ur name and email you use command
+(git config --global user.name "modified name") for email
+(git config --global user.email "modified email") and to to iniatialize any
+folder as git repository goto that repository and use commanf (git init)
+
