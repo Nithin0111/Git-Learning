@@ -8,6 +8,7 @@ commited to git repository and now to check what changes you use command
 we use command (git status) it shows the status of our files in the repositor
 y  and if you want to chnage ur name and email you use command
 (git config --global user.name "modified name") for email
-(git config --global user.email "modified email") and to to iniatialize any
+(git config --global user.email "modified email") we use global here
+because this changes applies for all the repos and to to iniatialize any
 folder as git repository goto that repository and use commanf (git init)
 
