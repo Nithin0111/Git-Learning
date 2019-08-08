@@ -1,0 +1,2 @@
+git ignore is nothing but used to ignore files in our repository that you don't want track in  the future that means they are not useful and they are no need to be tracked everytime we push and pull rewuests so we add git ignore to get more information type gitignore in google and you will find a github help page you can read thato
+
