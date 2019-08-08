@@ -1,0 +1,21 @@
+In this we learn how to see what changes we have made in our files and how 
+to undo these changes and how to go back to previous commit first lets assume
+that we have changed something in one of our files and we forgot what changes
+we have made so you can see the changes you have made after the previous commit
+by using a command called (git diff) if you want to see the changes in the 
+specified file then you have to use command (git diff filename) and it will
+show the changes in that particular file and you have staged a file to see
+the differences in the staged area git diff will not show you have to use 
+command git diff --staged filename to see the changes in the staged area let's assume
+that your manager has seen your staged files and said that you have done wrong
+code and said to make as it was previously so you haver to first unstage files
+that you have staged by using git add to unstage use command
+ (git reset filename) and the files will be unstaged and to go back to previous
+commit we use git checkout filename to undo the changes in all the files you
+use command (git checkout .) so it will undo all the changes made before 
+but you can only undo these changes before commit only even you staged the file
+you can unstage by using (git reset filename) for specific file and (git reset .)
+for all files and you can use (git checkout filename) for specific file and
+ (git checkout .) for all files to undo the changes but if you commit you cannot
+undo the changes so commit when you are absolutely sure
+ 
