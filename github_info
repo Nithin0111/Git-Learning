@@ -1,0 +1,17 @@
+here in allinfoaboutgit we are doing all the commits and all adds in the 
+local git repository but if we want to add all the changes and commits from
+local git repository to the github repository if for the first time you are
+pushing the code from your local computer to github first you need to 
+generate your your ssh key so that gihub knows that the commits done are
+from your computer only so to generate ssh keys follow these commands open
+github settings and you can find ssh and gpg keys now goto there if there is
+an ssh key you no need to generate if you are not sure for which computer it
+is linked then you can delete the key and down only you can find guide to
+generating a new sshkey you can see that you will understand completely and 
+to push your code command is (git push -u origin master) and all your commited
+code is pushed to github if there is not any committed code it will not be 
+pushed to github if any one made changes to the repository you will not be shown 
+when you type (git log) you have to pull the code from github by typing 
+(git pull origin master) when this command is executed then you will be shown
+all the changes made by other or by you in the github website now if you type
+(git log) then all the changes are shown
