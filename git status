@@ -1,0 +1,29 @@
+[33mcommit ff299eca3a70e443e208fdc8e13054bb4bb00a37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Nithin <programming965@gmail.com>
+Date:   Thu Aug 8 22:52:16 2019 +0530
+
+    how to see what changes are and how to go back to the changes untill previous commit
+
+[33mcommit 73dfb7d795147d127767f27cdd50a238080745e2[m
+Author: Nithin <programming965@gmail.com>
+Date:   Thu Aug 8 21:00:23 2019 +0530
+
+    push and pull info about github and how to add origin and how to add ssh keys
+
+[33mcommit 95f4232a462aec5c1fd97fbce01a0e6ec151fec9[m
+Author: Nithin <programming965@gmail.com>
+Date:   Thu Aug 8 01:51:27 2019 +0530
+
+    all info about git modified
+
+[33mcommit 0ed35b897f283a35c2e8855e68a5f27586830216[m
+Author: Nithin <programming965@gmail.com>
+Date:   Thu Aug 8 01:49:12 2019 +0530
+
+    all info about git committed later
+
+[33mcommit 2ab6792b55c1e569f5c00230b1e0cd288b1e9d0c[m
+Author: root <root@localhost.localdomain>
+Date:   Thu Aug 8 01:38:07 2019 +0530
+
+    first commit
