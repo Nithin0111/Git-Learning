@@ -1,0 +1,10 @@
+in this file we will see how to delete branches once we merged with the master
+branch beacuse there is wastage of memory to keep these branches because 
+their use is over so to delete branch you have to delete two times one locally
+and one on remote github to delete locally use command
+(git branch -d branch-name) here git branch -d security now after we do that
+the branch will be deleted locally you can check by command (git branch) it
+will show only one branch only that is master so now deleting remotely on
+github use command (git push origin --delete branch-name) here
+git push origin --delete security after executing the branch will be deleted
+*********git tutorial complete*******************
