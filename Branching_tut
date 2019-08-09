@@ -23,9 +23,12 @@ changes will not effect master branch suppose we added another file and you have
 staged them by using git add . and you committed them by using git commit -m "added security file"
 now to push these files use command (git push origin security) notice change
 here we are saying origin security files will be pushed to security branch
-now to merge this into the master branch use command (git merge security)
-now after another command (git push -u origin master) now security branch will
-be merged with master branch we r using -u in git push -u origin master because
+now to merge this into the master branch use command first 
+switch to master branch using command (git checkout master) now master
+branch will be selected and now use this command  (git merge security) so all files will be merged to master branch now all you have to is push these merged files to master branch 
+to do tht use this  command (git push -u origin master) now all merged files 
+from security which are stored locally will be pushed to github master branch
+ we r using -u in git push -u origin master because
 if we write this command now is there is no need to write the whole line if
 u just use git push only it will push to master branch that is the use of -u
  
