@@ -1,0 +1,31 @@
+Branching is nothing but creating a copy of all the files so tht we can work 
+on them for eg:we have two files in our master branch very important files
+but you want to add something else to them but you have a fear that if i do 
+anything wrong these files will be crashed and my work will be destroyed
+to avoid this situation branching helps what you do is create an another branch
+named security what this will do is copy all the files from master branch to
+security branch and you can work on whatever you like in the security branch you
+have no fear of losing the files because the original files are still in the 
+master branch untouched you are changing the content in another branch this will
+not effect the master branch files so you have worked more on this security
+branch and you have shown it to your manager and your manager tests them and 
+says they are good so after all the testing is done if it works you can 
+merge the security branch with the master branch let's see how to create 
+a branch and how to merge with the master branch first in terminal 
+type command (git branch) you can see all the branches and you can see
+green colour for particular branch that means you are working in that branch
+to create a branch type command (git branch branch-name) here (git branch security)
+to change branch from master to security so that a copy of all files in master 
+branch will be there in sec branch also type command (git checkout branch-name)
+here (git checkout security) and when u execute this command it says 
+switched to branch security now you can do ay changes in this branch these
+changes will not effect master branch suppose we added another file and you have
+staged them by using git add . and you committed them by using git commit -m "added security file"
+now to push these files use command (git push origin security) notice change
+here we are saying origin security files will be pushed to security branch
+now to merge this into the master branch use command (git merge security)
+now after another command (git push -u origin master) now security branch will
+be merged with master branch we r using -u in git push -u origin master because
+if we write this command now is there is no need to write the whole line if
+u just use git push only it will push to master branch that is the use of -u
+ 
